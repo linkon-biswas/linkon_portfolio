@@ -13,7 +13,7 @@ export const personal = {
   leetcode: "https://leetcode.com/u/link_on/",
   cfHandle: "link_on",
   lcHandle: "link_on",
-  resumeUrl: "/Linkon_Biswas_Resume.pdf",
+  resumeUrl: "Linkon_Biswas_Resume.pdf",
 };
 
 export const navItems = [
