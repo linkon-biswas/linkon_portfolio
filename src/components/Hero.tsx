@@ -135,7 +135,7 @@ export default function Hero() {
             <div className="absolute -inset-1 rounded-full bg-gradient-to-tr from-indigo-500 via-fuchsia-500 to-pink-500" />
             <div className="relative h-72 w-72 sm:h-80 sm:w-80 lg:h-[22rem] lg:w-[22rem] rounded-full overflow-hidden float-slow ring-1 ring-white/10 bg-gradient-to-br from-indigo-500/30 to-fuchsia-500/30">
               <img
-                src="/images/linkon.jpg"
+                src="linkon.jpg"
                 alt="Linkon Biswas"
                 className="h-full w-full object-cover"
                 style={{

@@ -25,7 +25,7 @@ export default function About() {
               <div className="absolute -inset-0.5 rounded-3xl bg-gradient-to-tr from-indigo-500 via-fuchsia-500 to-pink-500" />
               <div className="relative rounded-3xl overflow-hidden aspect-[3/4] w-full bg-gradient-to-br from-indigo-500/30 to-fuchsia-500/30 border border-white/10 shadow-2xl">
                 <img
-                  src="/images/about_linkon.jpg"
+                  src="linkon.jpg"
                   alt="Linkon Biswas"
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                   style={{
