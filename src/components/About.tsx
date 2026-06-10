@@ -67,7 +67,7 @@ export default function About() {
               fundamentals, and impactful real-world projects.
             </p>
 
-            <div className="mt-8 grid sm:grid-cols-2 gap-4 text-sm">
+            <div className="mt-8 flex flex-col gap-3 text-sm">
               <Info label="Name" value="Linkon Biswas" />
               <Info label="Degree" value="B.Sc. in CSE" />
               <Info label="University" value="Gopalganj Science and Technology University" />
