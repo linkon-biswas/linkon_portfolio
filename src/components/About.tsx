@@ -25,7 +25,7 @@ export default function About() {
               <div className="absolute -inset-0.5 rounded-3xl bg-gradient-to-tr from-indigo-500 via-fuchsia-500 to-pink-500" />
               <div className="relative rounded-3xl overflow-hidden aspect-[3/4] w-full bg-gradient-to-br from-indigo-500/30 to-fuchsia-500/30 border border-white/10 shadow-2xl">
                 <img
-                  src="linkon.jpg"
+                  src="/images/about_linkon.jpg"
                   alt="Linkon Biswas"
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                   style={{
@@ -48,7 +48,7 @@ export default function About() {
               <span className="gradient-text">//</span> Profile
             </p>
             <p className="text-base sm:text-lg leading-relaxed text-muted">
-              I am an undergraduate student of{" "}
+              Hello! I am an undergraduate student of{" "}
               <span className="text-current font-medium">CSE</span> with a
               strong interest in{" "}
               <span className="text-current font-medium">Problem Solving</span>,{" "}
@@ -70,8 +70,8 @@ export default function About() {
             <div className="mt-8 grid sm:grid-cols-2 gap-4 text-sm">
               <Info label="Name" value="Linkon Biswas" />
               <Info label="Degree" value="B.Sc. in CSE" />
-              <Info label="University" value="GSTU" />
-              <Info label="Focus" value="AI / ML & DSA" />
+              <Info label="University" value="Gopalganj Science and Technology University" />
+              <Info label="Focus" value="DSA, AI/ML & RAG" />
             </div>
           </motion.div>
         </div>
