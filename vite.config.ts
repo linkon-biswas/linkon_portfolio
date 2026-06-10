@@ -10,7 +10,11 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/linkon_portfolio/',
+  base: './',
+  // base: '/linkon_portfolio/',
+  build: {
+    outDir: 'docs',
+  },
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
